@@ -1,0 +1,5 @@
+The instructions to be used are same as those in running commands mentioned in the Lab-1 document, just that the required text files (which you want to use) need to be there in the directory. For Q7, run the commands: ps -o pid,stat <pid> from a different terminal.
+
+References used: 
+https://www.programiz.com/c-programming/c-file-input-output
+https://stackoverflow.com/questions/9449295/opening-a-file-from-command-line-arguments-in-c
