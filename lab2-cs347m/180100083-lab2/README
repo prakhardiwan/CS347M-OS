@@ -1,0 +1,6 @@
+Part 2 a
+In this I edited the files helloxv6.c, syscall.h, user.h, sysproc.c, syscall.c and usys.S for accomodating another system call hello(). Main changes were done in sysproc.c where I added sys_hello function, which consisted of cprintf() and the return statement. 
+
+Part 2 b
+In this I edited the files syscall.c, syscall.h, sysproc.c, user.h, proc.c, usys.S and proc.h for accomodating another system call trace. I added a variable trace_mask to indicate tracemask, which gives the systems calls to be traced. 
+For printing the tracing output, I edited the fork system defn for tracing it; and for tracing read system call, I edited syscall function in syscall.c. 
